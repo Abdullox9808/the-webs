@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E5E5E5;
+}
+.container{
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    width: 100%;
+    height: 65px;
+    background-color: #322E41;
+}
+.header__logo{
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transition: 0.3s;
+    padding-top: 20px;
+}
+.header__logo:hover{
+    transform: scale(1.1);
+}
+.header__content{
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.header__list{
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+.header__list>li{
+height: 100%;
+}
+.header__link{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    margin-right: 15px;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 14px;
+    padding-right:14px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.header__link:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #D47300;
+}
+.header__bg{
+    background-image: url(../image/Nike-Adapt-BB\ 1.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.header__bg-title{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+}
+.header__title{
+    height: 500px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.header__bg-text{
+    color: white;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 21px;
+}
+/* header end */
+
+/* main started */
+.main__nike-block{
+    display: flex;
+    margin-top: -30px;
+}
+.main__content{
+    width: 540px;
+    height: 467px;
+    background: white;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    
+}
+.main__content-title{
+    width: 364px;
+    height: 26px;
+    font-family: 'Roboto';
+    font-size: 22px;
+    line-height: 26px;
+    color: #2C2A2A;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.main__content-text{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9B9B9B;
+}
+.main__item1{
+    width: 255px;
+    height: 219px;
+    background-color: #fff;
+    border-radius: 6px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main__item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+   
+}
+.main__item-title{
+    color: #2C2A2A;
+    font-family: 'Roboto';
+    font-size: 22px;
+    line-height: 6px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.main__item-text{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size:16px ;
+    line-height: 16px;
+    padding: 15px;
+    color: #9B9B9B;
+}
+/* main end */
+
+/* footer started */
+.footer{
+    width: 100%;
+    height: 260px;
+    background: #322E41;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__content{
+ 
+    display: flex;
+    flex-direction: column;
+    margin-left: 239px;
+}
+.footer__input{
+    width: 350px;
+    height: 34px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    margin-top: 37px;
+    margin-bottom: 10px;
+}
+.footer__textarea{
+    width: 350px;
+    height: 86px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+}   
+.footer__btn{
+    width: 350px;
+    height: 25px;
+    background: #544294;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    color: white;
+    margin-top: 11px;
+}
+
+.footer__list{
+    margin-top: 8px;
+    width: 300px;
+    display: flex;
+    list-style: none;
+    /* flex-direction: column; */
+    align-content: space-around;
+    flex-wrap: wrap;
+    margin-right: 200px;
+ 
+
+}
+.footer__link{
+   
+    margin-top: 8px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 80px;
+    font-size: 16px;
+    margin-left: 68px;
+    transition: 0.5s;
+  
+}
+.footer__link:hover{
+    color: #D47300;
+}

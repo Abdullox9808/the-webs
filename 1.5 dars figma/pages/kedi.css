@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E5E5E5;
+}
+.container{
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    width: 100%;
+    height: 65px;
+    background-color: #322E41;
+}
+.header__logo{
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transition: 0.3s;
+    padding-top: 20px;
+}
+.header__logo:hover{
+    transform: scale(1.1);
+}
+.header__content{
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.header__list{
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+.header__list>li{
+height: 100%;
+}
+.header__link{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    margin-right: 15px;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 14px;
+    padding-right:14px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.header__link:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #D47300;
+}
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 260px;
+    background: #322E41;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__content{
+ 
+    display: flex;
+    flex-direction: column;
+    margin-left: 239px;
+}
+.footer__input{
+    width: 350px;
+    height: 34px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    margin-top: 37px;
+    margin-bottom: 10px;
+}
+.footer__textarea{
+    width: 350px;
+    height: 86px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+}   
+.footer__btn{
+    width: 350px;
+    height: 25px;
+    background: #544294;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    color: white;
+    margin-top: 11px;
+}
+
+.footer__list{
+    margin-top: 8px;
+    width: 300px;
+    display: flex;
+    list-style: none;
+    /* flex-direction: column; */
+    align-content: space-around;
+    flex-wrap: wrap;
+    margin-right: 200px;
+ 
+
+}
+.footer__link{
+   
+    margin-top: 8px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 80px;
+    font-size: 16px;
+    margin-left: 68px;
+    transition: 0.5s;
+  
+}
+.footer__link:hover{
+    color: #D47300;
+}
